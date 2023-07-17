@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: blue;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-2{
+    flex: 1;
+    font-size: 8rem;
+    color: white;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.form-container{
+    padding: 1rem;
+    margin: 2rem 0 0 4rem;
+    border: 1px solid white;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    
+}
+
+.form input[type = text],
+.form input[type = password],
+.form input[type = email]{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 0.3rem;
+    box-shadow: 0 0 3px;
+}
+
+.form input::placeholder{
+    font-weight: bold;
+}
+
+.form input[type = checkbox],
+.form p{
+    display: inline-block;
+    font-weight: bold;
+    margin-right: 0.5rem;
+}
+
+.register{
+    display: block;
+    width: 100%;
+    background-color: blue;
+    border: 1px solid blue;
+    padding: 0.5rem;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+.reg{
+    text-decoration: underline blue;
+}
+
+.form-login{
+    text-align: center;
+    width: 100%;
+
+}
+.login{
+    color: blue;
+}
+
